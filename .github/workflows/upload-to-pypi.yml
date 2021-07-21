@@ -1,8 +1,6 @@
 name: Publish release to PyPI
 
-on:
-  release:
-    types: [published]
+on: [push]
 
 jobs:
   build-sdist:
